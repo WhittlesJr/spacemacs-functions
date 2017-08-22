@@ -2,6 +2,7 @@
 
 This is a dumb little piece of elisp that can configurably import only the utility functions provided for us by our dear friends in the Spacemacs community. There are a lot of excellent little helper functions in there for various things, and instead of re-implementing or copying them I decided it would be nice to stay in sync somehow.
 
+
 ### Installation
 
 Arch Linux (AUR): https://aur.archlinux.org/packages/emacs-spacemacs-funcs/
@@ -25,7 +26,6 @@ Here's my configuration, using use-package:
 ```
 
 You can add to the `spacemacs-funcs-enabled-layers` list whatever spacemacs layers from which you've found useful functions.
-
 
 
 #### Gotchas
