@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [0.2] - 2017-06-20
+## [0.2] - 2017-08-22
 ### Added
 - Uploaded elisp
 - Wrote the README
