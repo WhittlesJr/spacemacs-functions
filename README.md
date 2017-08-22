@@ -14,7 +14,7 @@ NixOS (nixpkgs):
 
 ### Configuration
 
-Here's my configuration, using use-package.
+Here's my configuration, using use-package:
 
 ```
 (use-package spacemacs-funcs
@@ -24,9 +24,58 @@ Here's my configuration, using use-package.
   (spacemacs-funcs-load-layers))
 ```
 
-You can add to the `spacemacs-funcs-enabled-layers` list whatever spacemacs layers you want functions from.
+You can add to the `spacemacs-funcs-enabled-layers` list whatever spacemacs layers from which you've found useful functions.
+
 
 
 #### Gotchas
 
-Depending on the layers you enable, you may have to fake out some variables. Unfortunately, the structure of these utility function files isn't always self-contained or "pure," and may references to global variables. For example, in the code above, I had to set `dotspacemacs-persistent-server` to `nil`.
+Depending on the layers you enable, you may have to fake out some variables. Unfortunately, the structure of these utility function files isn't always self-contained or "pure," and may contain references to global variables. For example, in the code above, I had to set `dotspacemacs-persistent-server` to `nil`.
+
+
+### Useful functions
+
+These are the functions I've discovered and found useful personally. YMMV.
+
+#### Buffer text
+spacemacs/safe-erase-buffer
+spacemacs/safe-revert-buffer
+spacemacs/switch-to-scratch-buffer
+spacemacs/copy-whole-buffer-to-clipboard
+
+#### File management
+spacemacs/rename-current-buffer-file
+spacemacs/sudo-edit
+spacemacs/show-and-copy-buffer-filename
+
+#### Window navigation
+spacemacs/switch-to-minibuffer-window
+spacemacs/split-window-vertically-and-switch
+spacemacs/split-window-horizontally-and-switch
+
+#### Description
+spacemacs/describe-last-keys
+spacemacs/describe-system-info
+
+#### Text alignment
+spacemacs/align-repeat-ampersand
+spacemacs/align-repeat-left-paren
+spacemacs/align-repeat-right-paren
+spacemacs/align-repeat-comma
+spacemacs/align-repeat-decimal
+spacemacs/align-repeat-colon
+spacemacs/align-repeat-semicolon
+spacemacs/align-repeat-equal
+spacemacs/align-repeat-backslash
+spacemacs/align-repeat-math-oper
+spacemacs/align-repeat
+spacemacs/align-repeat-bar
+
+#### Text sorting and processing
+spacemacs/sort-lines-by-column
+spacemacs/sort-lines-by-column-reverse
+spacemacs/duplicate-line-or-region
+spacemacs/sort-lines
+spacemacs/sort-lines-reverse
+spacemacs/uniquify-lines
+spacemacs/count-words-analysis
