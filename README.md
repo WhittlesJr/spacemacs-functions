@@ -32,6 +32,8 @@ You can add to the `spacemacs-funcs-enabled-layers` list whatever spacemacs laye
 
 Depending on the layers you enable, you may have to fake out some variables. Unfortunately, the structure of these utility function files isn't always self-contained or "pure," and may contain references to global variables. For example, in the code above, I had to set `dotspacemacs-persistent-server` to `nil`.
 
+I haven't tried any of the others, because I haven't found a need for them just yet. If you start using this and discover some more concrete examples of these gotchas, by all means edit this README and create a pull request with the details.
+
 
 ### Useful functions
 
