@@ -40,44 +40,44 @@ I haven't tried any of the others, because I haven't found a need for them just 
 These are the functions I've discovered and found useful personally. YMMV.
 
 #### Buffer text
-spacemacs/safe-erase-buffer
-spacemacs/safe-revert-buffer
-spacemacs/switch-to-scratch-buffer
-spacemacs/copy-whole-buffer-to-clipboard
+  - spacemacs/safe-erase-buffer
+  - spacemacs/safe-revert-buffer
+  - spacemacs/switch-to-scratch-buffer
+  - spacemacs/copy-whole-buffer-to-clipboard
 
 #### File management
-spacemacs/rename-current-buffer-file
-spacemacs/sudo-edit
-spacemacs/show-and-copy-buffer-filename
+  - spacemacs/rename-current-buffer-file
+  - spacemacs/sudo-edit
+  - spacemacs/show-and-copy-buffer-filename
 
 #### Window navigation
-spacemacs/switch-to-minibuffer-window
-spacemacs/split-window-vertically-and-switch
-spacemacs/split-window-horizontally-and-switch
+  - spacemacs/switch-to-minibuffer-window
+  - spacemacs/split-window-vertically-and-switch
+  - spacemacs/split-window-horizontally-and-switch
 
 #### Description
-spacemacs/describe-last-keys
-spacemacs/describe-system-info
+  - spacemacs/describe-last-keys
+  - spacemacs/describe-system-info
 
 #### Text alignment
-spacemacs/align-repeat-ampersand
-spacemacs/align-repeat-left-paren
-spacemacs/align-repeat-right-paren
-spacemacs/align-repeat-comma
-spacemacs/align-repeat-decimal
-spacemacs/align-repeat-colon
-spacemacs/align-repeat-semicolon
-spacemacs/align-repeat-equal
-spacemacs/align-repeat-backslash
-spacemacs/align-repeat-math-oper
-spacemacs/align-repeat
-spacemacs/align-repeat-bar
+  - spacemacs/align-repeat-ampersand
+  - spacemacs/align-repeat-left-paren
+  - spacemacs/align-repeat-right-paren
+  - spacemacs/align-repeat-comma
+  - spacemacs/align-repeat-decimal
+  - spacemacs/align-repeat-colon
+  - spacemacs/align-repeat-semicolon
+  - spacemacs/align-repeat-equal
+  - spacemacs/align-repeat-backslash
+  - spacemacs/align-repeat-math-oper
+  - spacemacs/align-repeat
+  - spacemacs/align-repeat-bar
 
 #### Text sorting and processing
-spacemacs/sort-lines-by-column
-spacemacs/sort-lines-by-column-reverse
-spacemacs/duplicate-line-or-region
-spacemacs/sort-lines
-spacemacs/sort-lines-reverse
-spacemacs/uniquify-lines
-spacemacs/count-words-analysis
+  - spacemacs/sort-lines-by-column
+  - spacemacs/sort-lines-by-column-reverse
+  - spacemacs/duplicate-line-or-region
+  - spacemacs/sort-lines
+  - spacemacs/sort-lines-reverse
+  - spacemacs/uniquify-lines
+  - spacemacs/count-words-analysis
